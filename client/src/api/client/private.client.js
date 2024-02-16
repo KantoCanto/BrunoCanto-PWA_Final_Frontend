@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = 'https://thefilmlog-api.onrender.com';
+const baseURL = 'https://thefilmlog-api.onrender.com/api';
 
 const privateClient = axios.create({
     baseURL,
