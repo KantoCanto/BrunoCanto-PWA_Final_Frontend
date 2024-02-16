@@ -12,7 +12,8 @@ const store = configureStore({
         authModal: authModalSlice,
         appState: appStateSlice,
         globalLoading: globalLoadingSlice
-    }
+    },
+    devTools: false
 })
 
 export default store;
